@@ -210,8 +210,8 @@
     },
 
     selectItem: function(item){
-      if(this.hasCurrentSelectedItem())
-        this.currentSelectedItem.removeClass('selected');
+        if (this.hasCurrentSelectedItem())
+            this.currentSelectedItem.removeClass('selected');
 
       this.currentSelectedItem = item;
       item.addClass('selected');
@@ -221,7 +221,35 @@
       this.holder.text(item.text());
       var value = item.data('value');
       this.holder.data('value', value);
-      this.element.val(value);
+        this.element.val(value);
+
+        if (value == 1) {
+            window.open('http://quote.eastmoney.com/zs000001.html');
+        } 
+
+        if (value == 2) {
+            window.open('http://quote.eastmoney.com/zs399001.html');
+        } 
+
+        if (value == 3) {
+            window.open('http://quote.eastmoney.com/zs399006.html');
+        } 
+
+        if (value == 4) {
+            window.open('http://quote.eastmoney.com/zs399005.html');
+        } 
+
+        if (value == 5) {
+            window.open('http://quote.eastmoney.com/zs000300.html');
+        } 
+
+        if (value == 6) {
+            window.open('http://quote.eastmoney.com/zs000016.html');
+        } 
+
+        if (value == 7) {
+            window.open('http://quote.eastmoney.com/zs000003.html');
+        } 
 
       if(this.options.afterSelectItem){
         this.options.afterSelectItem.apply(this);
@@ -273,3 +301,4 @@
   };
 
 })(jQuery);
+
