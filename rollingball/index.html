@@ -7,6 +7,7 @@
     <script type="text/javascript" src="js/lrtk.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.searchableSelect.js"></script>
+    <script src="js/search.js"></script>
 </head>
 <body>
     <div class="top">
@@ -56,18 +57,29 @@
         <a href="http://www.lanrentuku.com" target="_blank">白云机场</a>
     </div>
     <div class="selectbox">
-        <select>
-            <option value="上证指数">上证指数</option>
-            <option value="上证指数">上证指数</option>
-            <option value="上证指数">上证指数</option>
-            <option value="上证指数">上证指数</option>
-            <option value="上证指数">上证指数</option>
+        <select name="select" onchange="linkChange(this);">
+            <option selected=selected>请选择一支股票</option>
+            <option value="1">上证指数</option>
+            <option value="2">深成指数</option>
+            <option value="3">创业指数</option>
+            <option value="4">中小板指</option>
+            <option value="5">沪深300</option>
+            <option value="6">上证50</option>
+            <option value="7">B股指数</option>
         </select>
     </div>
-    <script>
+    <script language="javascript">
         $(function () {
             $('select').searchableSelect();
         });
+
+        function linkChange(selectObj) {
+            var value = selectObj.options[selectObj.selectedIndex].value;
+            if (value != "") {
+                window.open(value, "", "")
+            }
+        }
+  
     </script>
 </body>
 </html>
