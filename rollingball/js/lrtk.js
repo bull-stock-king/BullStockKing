@@ -16,7 +16,11 @@ var mouseY=0;
 var howElliptical=1;
 
 var aA=null;
-var oDiv=null;
+var oDiv = null;
+
+var allinfo;
+var length;
+
 
 window.onload=function ()
 {
