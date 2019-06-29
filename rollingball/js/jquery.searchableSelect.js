@@ -1,6 +1,3 @@
-// Author: David Qin
-// E-mail: david@hereapp.cn
-// Date: 2014-11-05
 
 (function($){
 
