@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索股票</title>
+    <link rel="stylesheet" type="text/css" href="../static/search.css"/>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+    var data = {
+         data: JSON.stringify({"lesson": "Operation System", "score": 100})
+   }
+      $.ajax({
+        url:"/sendjson",
+        type: 'POST',
+        data: data,
+        success: function (msg) {
+            alert(msg.name)
+        }
+    })
+  });
+</script>
+
+    <div id = "searchbar" align="center">
+        <h3>请输入股票的名称</h3><br>
+        <form action="search" method="post">
+            <input type="text" name="stockName" ><br><br>
+            <input type="submit" value="查询">
+            <input type="reset" value="重置">
+        </form>
+
+
+    </div>
+
+
+</body>
+</html>
