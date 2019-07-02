@@ -10,8 +10,10 @@ flask<br>
 ```
 mysql --host bullstockking.mysql.database.chinacloudapi.cn --user stardust@bullstockking -p
 ```  
-&emsp; 如果未授权，cmd会报错：错误 2003 (28000): 不允许 IP 地址为 123.456.789.0 的客户端访问服务器 （ip地址每个人不同）  
-&emsp; 只需将报错的ip发给我即可连接。  
+如果未授权，cmd会报错：错误 2003 (28000): 不允许 IP 地址为 123.456.789.0 的客户端访问服务器 （ip地址每个人不同）  
+只需将报错的ip发给我即可连接。  
+  
+  
 应用程序中连接指令（python）：  
 ```
 import pymysql
