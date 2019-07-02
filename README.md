@@ -10,17 +10,20 @@ flask<br>
 ```
 mysql --host bullstockking.mysql.database.chinacloudapi.cn --user stardust@bullstockking -p
 ```  
-如果未授权，cmd会报错：错误 2003 (28000): 不允许 IP 地址为 123.456.789.0 的客户端访问服务器 （ip地址每个人不同）  
-只需将报错的ip发给我即可连接。  
+&emsp; 如果未授权，cmd会报错：错误 2003 (28000): 不允许 IP 地址为 123.456.789.0 的客户端访问服务器 （ip地址每个人不同）  
+&emsp; 只需将报错的ip发给我即可连接。  
 应用程序中连接指令（python）：  
 ```
 import pymysql
 conn = pymysql.connect(db="stock", user="stardust@bullstockking", password="ZYY99c0e222", host="bullstockking.mysql.database.chinacloudapi.cn",port=3306)
 ``` 
  *需将各自的ip记录下来并发送给我，经授权的ip才能连接云数据库*   
- 云数据库现有数据库相关信息：    
+   
+ 云数据库现有数据库相关信息： 
+   
 数据库名（db）：stock    
-table list：  
+  
+stock中表（table）列表：  
 表名（table）：stocks 
 
 |stock_code | cns_name|  
