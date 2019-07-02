@@ -10,7 +10,21 @@ flask<br>
 import pymysql
 conn = pymysql.connect(db="stock", user="stardust@bullstockking", password="ZYY99c0e222", host="bullstockking.mysql.database.chinacloudapi.cn",port=3306)
 ``` 
- *需将各自的ip记录下来并发送给我，经授权的ip才能连接云数据库*       
+ *需将各自的ip记录下来并发送给我，经授权的ip才能连接云数据库*   
+ 云数据库现有数据库相关信息：    
+数据库名（db）:stock    
+table list：  
+表名（table）：stocks 
+
+|stock_code | cns_name|  
+|:-:|:-:|  
+|000001|平安银行 | 
+
+表名（table）：historydata
+
+|stock_code|date|open|high|close|low | 
+|:-:| :---: |:-:|:-:|:-:|:-:|  
+|000001|2019-01-07|9.84|9.85|9.74|9.63 |
 
 ## 使用git提交说明  
 从本地提交到远程库：
