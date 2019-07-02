@@ -19,6 +19,11 @@ mysql --host bullstockking.mysql.database.chinacloudapi.cn --user stardust@bulls
 import pymysql
 conn = pymysql.connect(db="bullstockking", user="stardust@bullstockking", password="ZYY99c0e222", host="bullstockking.mysql.database.chinacloudapi.cn",port=3306)
 ``` 
+或者：
+```
+from sqlalchemy import create_engine  
+connect = create_engine('mysql+pymysql://stardust@bullstockking:ZYY99c0e222@bullstockking.mysql.database.chinacloudapi.cn:3306/bullstockking?charset=utf8')  
+```
  *需将各自的ip记录下来并发送给我，经授权的ip才能连接云数据库*   
    
  云数据库现有数据库相关信息： 
