@@ -17,26 +17,26 @@ mysql --host bullstockking.mysql.database.chinacloudapi.cn --user stardust@bulls
 应用程序中连接指令（python）：  
 ```
 import pymysql
-conn = pymysql.connect(db="stock", user="stardust@bullstockking", password="ZYY99c0e222", host="bullstockking.mysql.database.chinacloudapi.cn",port=3306)
+conn = pymysql.connect(db="bullstockking", user="stardust@bullstockking", password="ZYY99c0e222", host="bullstockking.mysql.database.chinacloudapi.cn",port=3306)
 ``` 
  *需将各自的ip记录下来并发送给我，经授权的ip才能连接云数据库*   
    
  云数据库现有数据库相关信息： 
    
-数据库名（db）：stock    
+数据库名（db）：bullstockking    
   
 stock中表（table）列表：  
-表名（table）：stocks 
+表名（table）：user_info 
 
-|stock_code | cns_name|  
-|:-:|:-:|  
-|000001|平安银行 | 
+|id | password|  email|  
+|:-:|:-:| :-:|    
+|916333607|123456 | NULL |
 
-表名（table）：historydata
+表名（table）：stock_detail_info
 
-|stock_code|date|open|high|close|low | 
-|:-:| :---: |:-:|:-:|:-:|:-:|  
-|000001|2019-01-07|9.84|9.85|9.74|9.63 |
+|code|name |changepercent|trade|open|high|low | settlement |   
+|:-:| :-:|:---: |:-:|:-:|:-:|:-:|:-:|    
+|300362|????|-10.056|4.83|4.86|5.22 |4.83 | 5.37|
 
 ## 使用git提交说明  
 从本地提交到远程库：
