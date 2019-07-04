@@ -49,9 +49,9 @@ email: &emsp;  VARCHAR(45)
 
 表名(table):stocks
 
-| stock_code | cns_name     |
+|stock_code| cns_name|
 |:-:| :-:|:-:|
-| 600511     | 国药股份     |
+| 600511| 国药股份 |
 
 
 code：&emsp; &emsp;  &emsp; &emsp; 代码  &emsp;  VARCHAR(45) &emsp; PK &emsp; NN  
