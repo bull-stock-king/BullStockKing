@@ -47,6 +47,16 @@ email: &emsp;  VARCHAR(45)
 |:-:| :-:|:---: |:-:|:-:|:-:|:-:|:-:|    
 |300362|????|-10.056|4.83|4.86|5.22 |4.83 | 5.37| 
 
+
+code：&emsp; &emsp;  &emsp; &emsp; 代码  &emsp;  VARCHAR(45) &emsp; PK &emsp; NN  
+name: &emsp; &emsp;  &emsp; &emsp; 名称   &emsp; TEXT  
+changepercent:&emsp; 涨跌幅 &emsp; DOUBLE  
+trade: &emsp; &emsp;  &emsp; &emsp; 现价 &emsp; &ensp;DOUBLE  
+open: &emsp;  &emsp;  &emsp; &emsp; 开盘价 &emsp; DOUBLE  
+high:  &emsp; &emsp; &emsp;  &emsp; 最高价 &emsp; DOUBLE  
+low:   &emsp; &emsp;  &emsp; &emsp; &ensp; 最低价 &emsp; DOUBLE  
+settlement:&emsp; &emsp;  昨日收盘价 &emsp; DOUBLE  
+
 表名(table):stocks  
 
 | stock_code | cns_name     |  
@@ -59,16 +69,7 @@ email: &emsp;  VARCHAR(45)
 
 | stock_code | date       | open  | high  | close | low   |   
 |:-:| :-:|:---: |:-:|:-:|:-:|  
-| 600511     | 2019-06-27 | 23.37 | 23.55 | 23.35 | 23.28 |  
-
-code：&emsp; &emsp;  &emsp; &emsp; 代码  &emsp;  VARCHAR(45) &emsp; PK &emsp; NN  
-name: &emsp; &emsp;  &emsp; &emsp; 名称   &emsp; TEXT  
-changepercent:&emsp; 涨跌幅 &emsp; DOUBLE  
-trade: &emsp; &emsp;  &emsp; &emsp; 现价 &emsp; &ensp;DOUBLE  
-open: &emsp;  &emsp;  &emsp; &emsp; 开盘价 &emsp; DOUBLE  
-high:  &emsp; &emsp; &emsp;  &emsp; 最高价 &emsp; DOUBLE  
-low:   &emsp; &emsp;  &emsp; &emsp; &ensp; 最低价 &emsp; DOUBLE  
-settlement:&emsp; &emsp;  昨日收盘价 &emsp; DOUBLE  
+| 600511     | 2019-06-27 | 23.37 | 23.55 | 23.35 | 23.28 |    
 
 ## 使用git提交说明  
 从本地提交到远程库：
@@ -115,7 +116,9 @@ ByllStockKing2.0对之前的大部分功能进行了淘汰与重构，代码结�
 
 王一丹：  
 * 前端框架（已完成）  
-* 股票详情界面  
+* 股票详情界面 (搜索框、股票的历史echars图，股票的新闻展示） （已完成）
+* 股票详情界面（词频echarts图）（完成一部分，词频的算法有待更新）
+* 股票详情界面（添加预测图，涨跌） （未完成）
 
 陈卓群：  
 * logo设计（已完成）  
