@@ -47,6 +47,13 @@ email: &emsp;  VARCHAR(45)
 |:-:| :-:|:---: |:-:|:-:|:-:|:-:|:-:|    
 |300362|????|-10.056|4.83|4.86|5.22 |4.83 | 5.37| 
 
+表名(table):stocks
+
+| stock_code | cns_name     |
+|:-:| :-:|:-:|
+| 600511     | 国药股份     |
+
+
 code：&emsp; &emsp;  &emsp; &emsp; 代码  &emsp;  VARCHAR(45) &emsp; PK &emsp; NN  
 name: &emsp; &emsp;  &emsp; &emsp; 名称   &emsp; TEXT  
 changepercent:&emsp; 涨跌幅 &emsp; DOUBLE  
