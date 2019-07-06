@@ -45,7 +45,7 @@ email: &emsp;  VARCHAR(45)
 
 |code|name |changepercent|trade|open|high|low | settlement |   
 |:-:| :-:|:---: |:-:|:-:|:-:|:-:|:-:|    
-|300362|????|-10.056|4.83|4.86|5.22 |4.83 | 5.37| 
+|300362|平安银行|-10.056|4.83|4.86|5.22 |4.83 | 5.37| 
 
 
 code：&emsp; &emsp;  &emsp; &emsp; 代码  &emsp;  VARCHAR(45) &emsp; PK &emsp; NN  
@@ -70,6 +70,12 @@ settlement:&emsp; &emsp;  昨日收盘价 &emsp; DOUBLE
 | stock_code | date       | open  | high  | close | low   |   
 |:-:| :-:|:---: |:-:|:-:|:-:|  
 | 600511     | 2019-06-27 | 23.37 | 23.55 | 23.35 | 23.28 |    
+
+表名(table):collect
+
+| user_id | stock_code |
+|:-:|:-:|
+| 916333607|000001|
 
 ## 使用git提交说明  
 从本地提交到远程库：
