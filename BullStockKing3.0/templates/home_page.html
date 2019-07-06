@@ -1,0 +1,61 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域,替换base.html中的content模块-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>牛股王</title>
+        <link rel="stylesheet" href="../static/css/style.css" />
+        <link rel="stylesheet" href="../static/css/style1.css" />
+        <script type="text/javascript" src="../static/js/lrtk.js"></script>
+        <script src="../static/js/jquery-1.11.1.min.js"></script>
+        <script src="../static/js/jquery.searchableSelect.js"></script>
+        <script src="../static/js/search.js"></script>
+    </head>
+    <script>
+     $(function (){
+         var homeBtn = document.getElementById("home");
+         homeBtn.className ="active";
+         var mycollectionBtn = document.getElementById("mycollection");
+         mycollectionBtn.className = "";
+     })
+    </script>
+    <body>
+    <div class="container">
+    <br><br>
+    <div class="title"><h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;优质股票&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;舆情监控</h2></div>
+    <div style="width: 100%; height: 100%">
+        <div id="div2" style="float: left">
+            <p style="font-size:20px;color:azure;">优质股票――――――――――</p>
+            <p style="font-size:12px;color:gray;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp我们精心为您挑选了当日的三十支低调奢华有内涵的优选股票，以搭配您高贵的气质，如果您不相信，请退出本页面，感谢您的配合。</p>
+            <p style="font-size:20px;color:azure;">舆情监控――――――――――</p>
+            <p style="font-size:12px;color:gray;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp我们展示出当前热门行业的行情状况，其中红色预示行情上涨，绿色预示行情下跌</p>
+        </div>
+        <div id="div1" style="float: left;margin-left: 300px" >
+            {% for name in list %}
+                <a href="{{ url_for('details',stockCode = name[1]) }}" >{{ name[0] }}</a>
+            {% endfor %}
+        </div>
+        <div class="table">
+            <table width="250" border="1" style="float: right">
+                <tr>
+                    <th align="left" style="background-color:rgba(255,255,255,0.1)">行业</th>
+                    <th align="left">预测值</th>
+                </tr>
+                {% for stock in showlist %}
+                    <tr>
+                        <td align="left">{{ stock['name'] }}</td>
+                        {% if stock['predict'] > 0.5 %}
+                            <td align="left" style="background-color:rgba(255,255,255,0.1)"><font color="red">{{ stock['predict'] }}</font> </td>
+                            {% else %}
+                            <td align="left" style="background-color:rgba(255,255,255,0.1)"><font color="green">{{ stock['predict'] }}</font> </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    </div>
+    </body>
+    </html>
+{% endblock %}
