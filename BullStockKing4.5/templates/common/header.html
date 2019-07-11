@@ -1,0 +1,76 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">牛股王</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li id="home" class="active"><a href="{{ url_for('hello_world') }}">主页 <span class="sr-only">(current)</span></a></li>
+                <li id="mycollection" class="">
+                    <a href="{{ url_for('my_collection') }}" id="my_collection">我的自选股</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" method="POST" action='/getHis'>
+                <div class="form-group">
+                    <input id="input" name="code" type="text" class="form-control" placeholder="请输入股票名称"
+                           list="stockList">
+                    <datalist id="stockList"></datalist>
+                    <button id="btn" type="submit" class="btn btn-default">搜索</button>
+                </div>
+            </form>
+             <script>
+                $(function () {
+                    $.ajax({
+                        type: "get",
+                        url: "selectFill",//访问后台去数据库查询select的选项
+                        success: function (stockListsJ) {
+                            stockLists = jQuery.parseJSON(stockListsJ)[0]
+                            userId = jQuery.parseJSON(stockListsJ)[1]
+                            var name_login = document.getElementById("name_login");
+                            if (userId == null){
+                                name_login.textContent = "用户▼";
+                                $("#logout").hide();
+                                $("#my_collection").alert("请先登录");
+                                $("#btn").alert("请先登录");
+                            }
+                            else {
+                                name_login.textContent = "\n"+userId+'▼';
+                                $("#login").hide();
+                                $("#dd").hide();
+                                $("#register").hide();
+                            }
+                            if (stockLists != null) { //后台传回来的select选项
+                                for (var i = 0; i < stockLists.length; i++) {
+                                    //遍历后台传回的结果，一项项往dataList中添加option
+                                    $("#stockList").append('<option value=\"' + stockLists[i][1] + '\"></option>');
+                                }
+                            }
+                        }
+                    })
+                })
+            </script>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false"  id="name_login">
+                       用户▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ url_for('login') }}" id="login">登录</a></li>
+                        <li role="separator" class="divider" id="dd"></li>
+                        <li><a href="{{ url_for('register') }}" id="register">注册</a></li>
+                        <li><a href="{{ url_for('logout') }}" id="logout">退出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

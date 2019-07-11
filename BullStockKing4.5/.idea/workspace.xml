@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c105c6a-92e1-4d22-b925-91a81457ae73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stock" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stock" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stock" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bullstockking: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stock" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bullstockking: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="collect: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4446">
+              <caret line="638" column="20" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+                <element signature="e#1698#2612#0" />
+                <element signature="e#2645#2847#0" />
+                <element signature="e#2869#3099#0" />
+                <element signature="e#3125#3266#0" />
+                <element signature="e#3556#3701#0" />
+                <element signature="e#3804#4830#0" />
+                <element signature="e#4860#5325#0" />
+                <element signature="e#5356#5659#0" />
+                <element signature="e#5749#8803#0" />
+                <element signature="e#8979#9373#0" />
+                <element signature="e#9447#9651#0" />
+                <element signature="e#9716#10188#0" />
+                <element signature="e#11300#11713#0" />
+                <element signature="e#11748#12741#0" />
+                <element signature="e#12769#13521#0" />
+                <element signature="e#13529#14191#1" />
+                <element signature="e#14214#15119#0" />
+                <element signature="e#15164#15210#0" />
+                <element signature="e#15242#15362#0" />
+                <element signature="e#15444#15998#0" />
+                <element signature="e#16082#16487#0" />
+                <element signature="e#16555#17014#0" />
+                <element signature="e#17085#17548#0" />
+                <element signature="e#19214#19853#0" />
+                <element signature="e#20019#20785#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/common/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/forget.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <folding>
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/sliding.form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="142" column="3" lean-forward="true" selection-start-line="142" selection-start-column="3" selection-end-line="142" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stock_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14117">
+              <caret line="743" column="11" selection-start-line="743" selection-start-column="11" selection-end-line="743" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>container</find>
+      <find>img</find>
+      <find>pre</find>
+      <find>his</find>
+      <find>getsto</find>
+      <find>500</find>
+      <find>cipin</find>
+      <find>data</find>
+      <find>setop</find>
+      <find>option2</find>
+      <find>data1</find>
+      <find>setOption2</find>
+      <find>tem</find>
+      <find>data5</find>
+      <find>中立</find>
+      <find>margin</find>
+      <find>predic</find>
+      <find>新闻</find>
+      <find>save</find>
+      <find>thre</find>
+      <find>col</find>
+      <find>collection</find>
+      <find>ju</find>
+      <find>负面</find>
+      <find>show</find>
+      <find>pred</find>
+      <find>png</find>
+      <find>股价</find>
+      <find>yidan</find>
+      <find>up</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/static/echart.js" />
+        <option value="$PROJECT_DIR$/templates/line-simple.html" />
+        <option value="$PROJECT_DIR$/static/data.js" />
+        <option value="$PROJECT_DIR$/templates/demo_test.txt" />
+        <option value="$PROJECT_DIR$/templates/candlestick-sh.html" />
+        <option value="$PROJECT_DIR$/templates/html/index.html" />
+        <option value="$PROJECT_DIR$/static/base.css" />
+        <option value="$PROJECT_DIR$/templates/commom/base.html" />
+        <option value="$PROJECT_DIR$/templates/common/sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/templates/pie-custom.html" />
+        <option value="$PROJECT_DIR$/templates/pie-simple.html" />
+        <option value="$PROJECT_DIR$/static/stop.txt" />
+        <option value="$PROJECT_DIR$/../NiuGuWang-2.7 2/templates/stock_details.html" />
+        <option value="$PROJECT_DIR$/templates/loading.html" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/templates/common/header.html" />
+        <option value="$PROJECT_DIR$/templates/my_collection.html" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templates/common/footer.html" />
+        <option value="$PROJECT_DIR$/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/templates/pie-doughnut.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/templates/stock_details.html" />
+        <option value="$PROJECT_DIR$/templates/common/base.html" />
+        <option value="$PROJECT_DIR$/templates/forget.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/static/js/sliding.form.js" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BullStockKing4.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BullStockKing4.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BullStockKing4.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BullStockKing4.2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BullStockKing4.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BullStockKing4.2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BullStockKing4.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BullStockKing4.2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BullStockKing4.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BullStockKing4.2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0" />
+      <module name="NiuGuWang" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0" />
+      <module name="NiuGuWang" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NiuGuWang" type="Python.FlaskServer">
+      <option name="additionalOptions" value="--host=0.0.0.0" />
+      <module name="NiuGuWang" />
+      <option name="target" value="$PROJECT_DIR$" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.NiuGuWang" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c105c6a-92e1-4d22-b925-91a81457ae73" name="Default Changelist" comment="" />
+      <created>1561605424120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561605424120</updated>
+      <workItem from="1561605425422" duration="1190000" />
+      <workItem from="1561618547887" duration="1177000" />
+      <workItem from="1561624582065" duration="8000" />
+      <workItem from="1561627883613" duration="3873000" />
+      <workItem from="1561632281830" duration="910000" />
+      <workItem from="1561638529651" duration="5012000" />
+      <workItem from="1561686173464" duration="453000" />
+      <workItem from="1561692805267" duration="398000" />
+      <workItem from="1561704552759" duration="14802000" />
+      <workItem from="1561737415575" duration="396000" />
+      <workItem from="1561787862560" duration="2446000" />
+      <workItem from="1561795430187" duration="4000" />
+      <workItem from="1561943637805" duration="229000" />
+      <workItem from="1561966044084" duration="10920000" />
+      <workItem from="1561984986560" duration="3938000" />
+      <workItem from="1562029795722" duration="9612000" />
+      <workItem from="1562042597697" duration="6583000" />
+      <workItem from="1562141295042" duration="8827000" />
+      <workItem from="1562202667563" duration="21538000" />
+      <workItem from="1562243148242" duration="137000" />
+      <workItem from="1562291672032" duration="14829000" />
+      <workItem from="1562324163479" duration="451000" />
+      <workItem from="1562326829252" duration="8353000" />
+      <workItem from="1562337515354" duration="56000" />
+      <workItem from="1562337677045" duration="611000" />
+      <workItem from="1562375674686" duration="27000" />
+      <workItem from="1562376325400" duration="4006000" />
+      <workItem from="1562380482845" duration="255000" />
+      <workItem from="1562381005860" duration="1351000" />
+      <workItem from="1562754757784" duration="8760000" />
+      <workItem from="1562814234327" duration="2763000" />
+      <workItem from="1562817050068" duration="2182000" />
+      <workItem from="1562825863019" duration="4786000" />
+      <workItem from="1562831631834" duration="310000" />
+      <workItem from="1562832531666" duration="2265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143458000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4189781" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3708029" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329927" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3206785" />
+      <window_info anchor="right" id="Database" order="4" weight="0.19951534" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NiuGuWang_$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562061845175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NiuGuWang_2_9$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562338207052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NiuGuWang_2_9_5$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562382314224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BullStockKing4_0$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1562831359348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/NiuGuWang_2_1$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562234000338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BullStockKing4_0$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562816634796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BullStockKing4_0$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1562816977548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/NiuGuWang$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1561978845253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NiuGuWang_2_7$NiuGuWang.coverage" NAME="NiuGuWang Coverage Results" MODIFIED="1562314407226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BullStockKing4_2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1562832612030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://f8a3a3fc-4178-4ee4-a4a1-31dece657ce5/schema/bullstockking/table/stock_detail_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="772f51da-d0fb-4349-a31e-7a0561afe5f5">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../NiuGuWang-2.1 2/app.py" />
+    <entry file="file://$PROJECT_DIR$/../NiuGuWang-2.8/app.py" />
+    <entry file="file://$PROJECT_DIR$/../NiuGuWang-2.8/templates/stock_details.html" />
+    <entry file="das://f8a3a3fc-4178-4ee4-a4a1-31dece657ce5/schema/bullstockking/table/historydata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="585e719f-76fb-4e17-b3f5-7afd76b99f65">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/pymysql/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.searchableSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/BullStockKing2.0/Lib/site-packages/flask/helpers.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/lrtk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="192" column="30" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124393">
+          <caret line="6547" column="22" selection-start-line="6547" selection-start-column="22" selection-end-line="6547" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/my_collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268485">
+          <caret line="17912" column="51" selection-start-line="17912" selection-start-column="44" selection-end-line="17912" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/predict.png" />
+    <entry file="file://$PROJECT_DIR$/sh.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/werkzeug/routing.py" />
+    <entry file="file:///anaconda3/lib/python3.7/selectors.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/flask/app.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/tushare/stock/trading.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/tushare/stock/cons.py" />
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/pandas/plotting/_converter.py" />
+    <entry file="file://$PROJECT_DIR$/templates/pie-doughnut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="9" selection-start-line="6" selection-start-column="47" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/stop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="904" column="2" selection-start-line="904" selection-start-column="2" selection-end-line="904" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f8a3a3fc-4178-4ee4-a4a1-31dece657ce5/schema/bullstockking/table/collect">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="30c32ed4-0438-4c2f-a312-e9a2401c1da4">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f8a3a3fc-4178-4ee4-a4a1-31dece657ce5/schema/bullstockking/table/user_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="30c32ed4-0438-4c2f-a312-e9a2401c1da4">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict.png" />
+    <entry file="file://$PROJECT_DIR$/static/predict000004.png" />
+    <entry file="file://$PROJECT_DIR$/static/predict603966.png" />
+    <entry file="file://$PROJECT_DIR$/static/predict603986.png" />
+    <entry file="file://$PROJECT_DIR$/static/predict603968.png" />
+    <entry file="file://$PROJECT_DIR$/static/predict601988.png" />
+    <entry file="file://$PROJECT_DIR$/static/涨.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/跌.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14117">
+          <caret line="743" column="11" selection-start-line="743" selection-start-column="11" selection-end-line="743" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/sliding.form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="142" column="3" lean-forward="true" selection-start-line="142" selection-start-column="3" selection-end-line="142" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4446">
+          <caret line="638" column="20" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+            <element signature="e#1698#2612#0" />
+            <element signature="e#2645#2847#0" />
+            <element signature="e#2869#3099#0" />
+            <element signature="e#3125#3266#0" />
+            <element signature="e#3556#3701#0" />
+            <element signature="e#3804#4830#0" />
+            <element signature="e#4860#5325#0" />
+            <element signature="e#5356#5659#0" />
+            <element signature="e#5749#8803#0" />
+            <element signature="e#8979#9373#0" />
+            <element signature="e#9447#9651#0" />
+            <element signature="e#9716#10188#0" />
+            <element signature="e#11300#11713#0" />
+            <element signature="e#11748#12741#0" />
+            <element signature="e#12769#13521#0" />
+            <element signature="e#13529#14191#1" />
+            <element signature="e#14214#15119#0" />
+            <element signature="e#15164#15210#0" />
+            <element signature="e#15242#15362#0" />
+            <element signature="e#15444#15998#0" />
+            <element signature="e#16082#16487#0" />
+            <element signature="e#16555#17014#0" />
+            <element signature="e#17085#17548#0" />
+            <element signature="e#19214#19853#0" />
+            <element signature="e#20019#20785#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
